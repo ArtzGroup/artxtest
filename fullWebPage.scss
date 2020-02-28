@@ -5,7 +5,7 @@
   margin: 0;
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px){ 
 
 .nav {
   width: 100%;
@@ -214,40 +214,40 @@
 }
 //media Queries
 
-@media only screen and (min-width: 400px){
-  .nav{
-    .items{
-      display: none;
-    }
+// @media only screen and (min-width: 400px){
+//   .nav{
+//     .items{
+//       display: none;
+//     }
 
-    .mobile{
-      display: block;
-    }
-  }
+//     .mobile{
+//       display: block;
+//     }
+//   }
 
-  .sectionsWrapper{
-    margin-top: 64px;
+//   .sectionsWrapper{
+//     margin-top: 64px;
 
-    .landingImage{
-      height: auto;
-      min-height: 200px;
-      background-repeat: no-repeat;
-    }
+//     .landingImage{
+//       height: auto;
+//       min-height: 200px;
+//       background-repeat: no-repeat;
+//     }
 
-    .cardsWrapper{
-      min-height: 600px;
-      margin-top: 50px;
+//     .cardsWrapper{
+//       min-height: 600px;
+//       margin-top: 50px;
 
-      .firstThreeCards{
-        flex-direction: column;
-    align-items: center;
-      }
+//       .firstThreeCards{
+//         flex-direction: column;
+//     align-items: center;
+//       }
 
-      .secondThreeCards{
-        flex-direction: column;
-    align-items: center;
-      }
-    }
-  }
+//       .secondThreeCards{
+//         flex-direction: column;
+//     align-items: center;
+//       }
+//     }
+//   }
 
-}
+// }

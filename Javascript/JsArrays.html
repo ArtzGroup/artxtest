@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="JsPart4.js"></script>
+    <script>
+      function sorting(num) {
+        var y = false;
+        while (!y) {
+          y = true;
+          for (let i = 1; i < num.length; i++) {
+            if (num[i - 1] > num[i]) {
+              y = false;
+              var x = num[i - 1];
+              num[i - 1] = num[i];
+              num[i] = x;
+            }
+          }
+        }
+        return num;
+      }
+
+      var array = [20, 10, 90, 50, 21];
+      sorting(array);
+      console.log(array);
+    </script>
+
+    <style>
+        .green{
+            background-color: green;
+        }
+    </style>
+  </head>
+  <body>
+    <button id="color" name="button" onclick="arrayCall()">Call</button>
+  </body>
+</html>

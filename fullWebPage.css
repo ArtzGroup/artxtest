@@ -231,43 +231,4 @@
     text-transform: uppercase;
   }
 }
-
-@media only screen and (min-width: 400px) {
-  .nav .items {
-    display: none;
-  }
-  .nav .mobile {
-    display: block;
-  }
-  .sectionsWrapper {
-    margin-top: 64px;
-  }
-  .sectionsWrapper .landingImage {
-    height: auto;
-    min-height: 200px;
-    background-repeat: no-repeat;
-  }
-  .sectionsWrapper .cardsWrapper {
-    min-height: 600px;
-    margin-top: 50px;
-  }
-  .sectionsWrapper .cardsWrapper .firstThreeCards {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .sectionsWrapper .cardsWrapper .secondThreeCards {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
 /*# sourceMappingURL=fullWebPage.css.map */

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="JsPart4.js"></script>
+
+    <script>
+        function get(){
+            var x = PassValue();
+            console.log(x);
+            document.getElementById("test").innerHTML = x;
+        }
+    </script>
+</head>
+<body>
+    <p id="test"></p>
+    <p>This is text</p>
+    <button onclick="get()">Get</button>
+</body>
+</html>
